@@ -7,12 +7,12 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #777;
     margin-top: 50px;
 }
 
 p {
-    color: #666;
+    color: #999;
     font-size: 1.2em;
 }
 
@@ -26,9 +26,15 @@ p {
     background-color: #2b2b2b; /* Ensure there is a background to see the particles clearly */
 }
 
+/* Styles for the 300x300 Three.js canvas */
 canvas {
     display: block;
+    margin: 50px auto; /* Center the canvas */
+    border: 2px solid #333; /* Add a border to the canvas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for effect */
 }
+
+
 
 
 
