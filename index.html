@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Chinmay1743</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
-    <h1>Hello! Random Internet User!</h1>
+    <h1>Random Information about account:</h1>
     <p>This is a basic website hosted on GitHub Pages. Currently using HTML, CSS, Three.js, Particle.js</p>
+    <p>As of today, <span id="date"></span>, the user has:</p>
+    <ul>
+        <li><span id="public-repos">0</span> public repositories</li>
+        <li><span id="total-commits">0</span> total public commits</li>
+        <li><span id="current-year-commits">0</span> commits in the current year for public repositories</li>
+    </ul>
 
     <!-- Particle.js container -->
     <div id="particles-js"></div>
@@ -21,6 +27,7 @@
     <!-- Link to external JS files -->
     <script src="three-setup.js"></script>
     <script src="particles-setup.js"></script>
+    <script src="github-stats.js"></script>
 </body>
 </html>
 
