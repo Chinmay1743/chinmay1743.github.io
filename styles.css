@@ -1,3 +1,12 @@
+/* Disable scrollbars and overflow */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    height: 100%; /* Ensure body fills the entire viewport */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
